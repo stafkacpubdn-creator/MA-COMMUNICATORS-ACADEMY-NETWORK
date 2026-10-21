@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KAC Communicator Academy</title>
+    <meta name="description" content="Platform Self-Learning Adaptif Real-Time untuk Anggota KAC Pusat dan Shaf 2 (ka01-ka14) dengan Dasbor Analitik IPOOI, Kuis Adaptif, Kompetisi & Dapur Setting Modular." />
+    <meta property="og:title" content="KAC Communicator Academy" />
+    <meta property="og:description" content="Platform Self-Learning Adaptif Real-Time untuk Anggota KAC Pusat dan Shaf 2 (ka01-ka14) dengan Dasbor Analitik IPOOI, Kuis Adaptif, Kompetisi & Dapur Setting Modular." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-slate-100 dark:bg-[#0e1b2e] text-slate-900 dark:text-slate-100 antialiased font-sans transition-colors duration-200">
+    <script>
+      (function() {
+        try {
+          var palette = localStorage.getItem('kac_theme_palette') || 'navy';
+          document.documentElement.setAttribute('data-theme', palette);
+          var isDark = palette !== 'light' && palette !== 'sepia';
+          if (isDark) {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

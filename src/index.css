@@ -1,0 +1,161 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    color-scheme: light dark;
+  }
+
+  html.dark {
+    color-scheme: dark;
+  }
+
+  html:not(.dark) {
+    color-scheme: light;
+  }
+
+  body {
+    @apply antialiased bg-slate-100 text-slate-900 transition-colors duration-200;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  .dark body {
+    @apply bg-slate-950 text-slate-100;
+  }
+}
+
+/* ================= 6 CONTRAST THEME PALETTES ================= */
+
+/* 1. Midnight Navy (Default Dark) */
+html[data-theme="navy"] body {
+  background-color: #0e1b2e !important;
+  color: #f8fafc !important;
+}
+
+/* 2. Pure Clean Light */
+html[data-theme="light"] body {
+  background-color: #f8fafc !important;
+  color: #0f172a !important;
+}
+html[data-theme="light"] .bg-white {
+  background-color: #ffffff !important;
+}
+
+/* 3. Cyber Emerald (Dark Obsidian & Vivid Mint) */
+html[data-theme="emerald"] body {
+  background-color: #061812 !important;
+  color: #ecfdf5 !important;
+}
+html[data-theme="emerald"] .dark\:bg-\[\#172b47\],
+html[data-theme="emerald"] .dark\:bg-\[\#111f36\],
+html[data-theme="emerald"] .dark\:bg-\[\#12223a\],
+html[data-theme="emerald"] .dark\:bg-\[\#15253d\],
+html[data-theme="emerald"] .dark\:bg-\[\#1a2d4b\] {
+  background-color: #0b261d !important;
+  border-color: rgba(16, 185, 129, 0.25) !important;
+}
+html[data-theme="emerald"] aside {
+  background-color: #071c15 !important;
+  border-color: rgba(16, 185, 129, 0.2) !important;
+}
+html[data-theme="emerald"] header {
+  background-color: rgba(7, 28, 21, 0.9) !important;
+  border-color: rgba(16, 185, 129, 0.2) !important;
+}
+
+/* 4. Royal Amethyst (Deep Purple & Lilac) */
+html[data-theme="amethyst"] body {
+  background-color: #130a24 !important;
+  color: #faf5ff !important;
+}
+html[data-theme="amethyst"] .dark\:bg-\[\#172b47\],
+html[data-theme="amethyst"] .dark\:bg-\[\#111f36\],
+html[data-theme="amethyst"] .dark\:bg-\[\#12223a\],
+html[data-theme="amethyst"] .dark\:bg-\[\#15253d\],
+html[data-theme="amethyst"] .dark\:bg-\[\#1a2d4b\] {
+  background-color: #1f1238 !important;
+  border-color: rgba(168, 85, 247, 0.25) !important;
+}
+html[data-theme="amethyst"] aside {
+  background-color: #160c2b !important;
+  border-color: rgba(168, 85, 247, 0.2) !important;
+}
+html[data-theme="amethyst"] header {
+  background-color: rgba(22, 12, 43, 0.9) !important;
+  border-color: rgba(168, 85, 247, 0.2) !important;
+}
+
+/* 5. Warm Sepia Paper (Parchment & Espresso) */
+html[data-theme="sepia"] body {
+  background-color: #fbf6ea !important;
+  color: #291b0f !important;
+}
+html[data-theme="sepia"] .bg-white {
+  background-color: #fffdf8 !important;
+  border-color: #e8e0ce !important;
+}
+html[data-theme="sepia"] .bg-slate-50 {
+  background-color: #f5eedc !important;
+  border-color: #e6ddc9 !important;
+}
+html[data-theme="sepia"] aside {
+  background-color: #2b1f14 !important;
+  border-color: #423223 !important;
+}
+html[data-theme="sepia"] header {
+  background-color: rgba(255, 253, 248, 0.9) !important;
+  border-color: #e8e0ce !important;
+}
+
+/* 6. Onyx OLED Maximum (True Pitch Black 21:1) */
+html[data-theme="onyx"] body {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+html[data-theme="onyx"] .dark\:bg-\[\#172b47\],
+html[data-theme="onyx"] .dark\:bg-\[\#111f36\],
+html[data-theme="onyx"] .dark\:bg-\[\#12223a\],
+html[data-theme="onyx"] .dark\:bg-\[\#15253d\],
+html[data-theme="onyx"] .dark\:bg-\[\#1a2d4b\] {
+  background-color: #0a0a0d !important;
+  border-color: #27272a !important;
+}
+html[data-theme="onyx"] aside {
+  background-color: #050507 !important;
+  border-color: #27272a !important;
+}
+html[data-theme="onyx"] header {
+  background-color: rgba(5, 5, 7, 0.95) !important;
+  border-color: #27272a !important;
+}
+
+/* Custom Scrollbar for sidebar and cards */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.25);
+  border-radius: 9999px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.45);
+}
+
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  aside, header, nav, .print\:hidden {
+    display: none !important;
+  }
+}

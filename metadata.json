@@ -1,0 +1,8 @@
+{
+  "name": "KAC Communicator Academy",
+  "description": "Platform Self-Learning Adaptif Real-Time untuk Anggota KAC Pusat dan Shaf 2 (ka01-ka14) dengan Dasbor Analitik IPOOI, Kuis Adaptif, Kompetisi & Dapur Setting Modular.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
