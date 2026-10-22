@@ -40,7 +40,7 @@ export const isAuthorizedAdmin = (email?: string): boolean => {
 export const INITIAL_USERS: UserProfile[] = [
   {
     id: 'user-pusat',
-    name: 'Bung Abram Hanif (Kordinator Pusat)',
+    name: 'Bung Abram Hanif (Admin Pusat)',
     unit: 'KAC (Pusat)',
     unitCode: 'PUSAT',
     role: 'admin',
@@ -71,7 +71,7 @@ export const INITIAL_USERS: UserProfile[] = [
   },
   {
     id: 'user-pubdn',
-    name: 'Bung Ihsan Wicaksono (Admin Publikasi & Konten)',
+    name: 'Bung Nugraha (Koordinator Pusat)',
     unit: 'KAC (Pusat)',
     unitCode: 'PUSAT',
     role: 'admin',
@@ -547,7 +547,7 @@ export const INITIAL_LESSONS: Record<'newbie' | 'runner' | 'master', LessonConte
     estimatedMinutes: 25,
     sections: [
       {
-                heading: '1. Hakikat Komunikator MA & Disiplin Shaf 2',
+        heading: '1. Hakikat Komunikator MA & Disiplin Shaf 2',
         body: 'Seorang komunikator MA bukan sekadar penyampai kata, melainkan duta nilai yang memegang tanggung jawab moral dan integritas keteladanan. Pada tingkatan Shaf 2 (ka01-ka14), setiap unit adalah simpul penggerak di lapangan yang menghubungkan visi MA dengan realitas masyarakat.',
         callout: 'Kaidah Utama: Pemahaman (Know How) mendahului tindakan. Bagi sahabat yang belum nyaman melakukan pengabaran, bersama kita mulai memperkuat fondasi konsep pengabaran agar terpatri kokoh.',
         keyTakeaway: 'Integritas pesan bermula dari pemahaman teoretis yang lurus dan selaras dengan visi MA.',
@@ -801,7 +801,7 @@ export const INITIAL_HABITS: HabitItem[] = [
   {
     id: 'habit-1',
     title: 'Alpha: Baca Modul Mandiri (15 Menit)',
-    description: 'Membaca dan meresapi 1 sub-bab materi teoretis KAC setiap pagi.',
+    description: 'Membaca dan meresapi 1 sub-bab materi teoretis MA Communicators Academy Network (MACAN)setiap pagi.',
     targetPerDay: 1,
     completedToday: true,
     history: { '2026-10-14': true, '2026-10-13': true, '2026-10-12': true },
@@ -862,7 +862,7 @@ export const INITIAL_BULLETS: Record<string, BulletModule> = {
     description: 'Format ringkas terstruktur untuk membuka pembicaraan tanpa bertele-tele namun menyentuh rasa ingin tahu audiens secara etis.',
     checklistItems: [
       { id: 'ep-1', text: 'Hook Menarik: Masalah nyata yang dirasakan audiens', done: true },
-      { id: 'ep-2', text: 'Jembatan Nilai: Visi KAC sebagai wadah solusi', done: true },
+      { id: 'ep-2', text: 'Jembatan Nilai: Visi MA sebagai wadah solusi', done: true },
       { id: 'ep-3', text: 'Call to Action: Undangan bersahabat untuk dialog santai lanjutan', done: false },
       { id: 'ep-4', text: 'Artikulasi Vokal: Tempo stabil 120 kata/menit tanpa jeda canggung', done: true },
     ],
@@ -874,7 +874,7 @@ export const INITIAL_BULLETS: Record<string, BulletModule> = {
       },
       {
         title: 'Detik 11 - 35: The Solution & Story',
-        desc: 'Jelaskan bagaimana KAC membangun wadah pembinaan yang terbukti membawa manfaat.',
+        desc: 'Jelaskan bagaimana Shaf 2 membangun wadah pembinaan yang terbukti membawa manfaat.',
         tips: 'Sertakan contoh konkret hasil perubahan positif di lingkungan Shaf 2.',
       },
       {
@@ -919,10 +919,10 @@ export const INITIAL_BULLETS: Record<string, BulletModule> = {
     id: 'materi-pengabaran',
     title: 'Materi Pengabaran (Penyampaian Inti)',
     tagline: 'Menyampaikan Pesan Kebenaran dengan Bahasa Kasih dan Kebijaksanaan',
-    description: 'Kumpulan naskah inti, dalil filosofis, dan panduan dialog untuk menyampaikan esensi gerakan KAC secara terstruktur dan mencerahkan.',
+    description: 'Kumpulan naskah inti, dalil filosofis, dan panduan dialog untuk menyampaikan esensi kewahyuan secara terstruktur dan mencerahkan.',
     checklistItems: [
       { id: 'mp-1', text: 'Pembukaan dengan salam hangat dan apresiasi waktu audiens', done: true },
-      { id: 'mp-2', text: 'Penyampaian 3 pokok ajaran KAC dengan analogi sederhana', done: true },
+      { id: 'mp-2', text: 'Penyampaian 3 pokok ajaran MA dengan analogi sederhana', done: true },
       { id: 'mp-3', text: 'Mendengarkan 60% waktu, berbicara 40% waktu', done: false },
       { id: 'mp-4', text: 'Pencatatan pertanyaan atau keberatan di log harian', done: true },
     ],
@@ -1018,7 +1018,7 @@ export const INITIAL_IPOOI: IPOOIData = {
     targetHours: 50.0,
     attendanceRate: 92,
     materialsReadCount: 28,
-    notes: 'Kehadiran unit KAC Pusat dan Shaf 2 stabil di atas 90%. Alokasi waktu belajar mandiri meningkat 15% dari pekan lalu.',
+    notes: 'Kehadiran shaf 2 dan Shaf 3 stabil di atas 90%. Alokasi waktu belajar mandiri meningkat 15% dari pekan lalu.',
   },
   process: {
     quizAttempts: 84,
@@ -1044,7 +1044,7 @@ export const INITIAL_IPOOI: IPOOIData = {
     communicatorMaturityLevel: 'Advanced',
     shafReadinessScore: 91.2,
     kacOverallImpactIndex: 87.8,
-    notes: 'Kemandirian komunikator KAC Pusat dan Shaf 2 telah mencapai tahap kematangan tinggi (Advanced Level). Siap untuk ekspansi pembinaan regional.',
+    notes: 'Kemandirian komunikator Shaf 2 dan Shaf 3 telah mencapai tahap kematangan tinggi (Advanced Level). Siap untuk ekspansi pembinaan regional.',
   },
 };
 
