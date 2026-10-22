@@ -102,7 +102,7 @@ export const INITIAL_USERS: UserProfile[] = [
   },
   {
     id: 'user-ka01',
-    name: 'Bung Ahmad Fauzi (ka01)',
+    name: 'Bung Gabriel Ardhy Wicaksono (ka01)',
     unit: 'Shaf 2 (ka01)',
     unitCode: 'ka01',
     role: 'member',
@@ -133,7 +133,7 @@ export const INITIAL_USERS: UserProfile[] = [
   },
   {
     id: 'user-ka02',
-    name: 'Bung Budi Santoso (ka02)',
+    name: 'Bung Shalom Abdi Raya (ka02)',
     unit: 'Shaf 2 (ka02)',
     unitCode: 'ka02',
     role: 'member',
@@ -164,7 +164,7 @@ export const INITIAL_USERS: UserProfile[] = [
   },
   {
     id: 'user-ka03',
-    name: 'Bung Chandra Wijaya (ka03)',
+    name: 'Bung Aji Yuda Imanuel (ka03)',
     unit: 'Shaf 2 (ka03)',
     unitCode: 'ka03',
     role: 'member',
@@ -195,7 +195,7 @@ export const INITIAL_USERS: UserProfile[] = [
   },
   {
     id: 'user-ka04',
-    name: 'Bung Dedi Kurniawan (ka04)',
+    name: 'Bung Tirta Samudera Kahuripan (ka04)',
     unit: 'Shaf 2 (ka04)',
     unitCode: 'ka04',
     role: 'member',
@@ -226,7 +226,7 @@ export const INITIAL_USERS: UserProfile[] = [
   },
   {
     id: 'user-ka05',
-    name: 'Bung Eko Prasetyo (ka05)',
+    name: 'Bung Rafael Musholin (ka05)',
     unit: 'Shaf 2 (ka05)',
     unitCode: 'ka05',
     role: 'member',
@@ -257,7 +257,7 @@ export const INITIAL_USERS: UserProfile[] = [
   },
   {
     id: 'user-ka06',
-    name: 'Bung Farhan Maulana (ka06)',
+    name: 'Bung Adyrasha Bastian Akbar (ka06)',
     unit: 'Shaf 2 (ka06)',
     unitCode: 'ka06',
     role: 'member',
@@ -288,7 +288,7 @@ export const INITIAL_USERS: UserProfile[] = [
   },
   {
     id: 'user-ka07',
-    name: 'Bung Gilang Ramadhan (ka07)',
+    name: 'Bung Jacob Ali Wibowo (ka07)',
     unit: 'Shaf 2 (ka07)',
     unitCode: 'ka07',
     role: 'member',
@@ -319,7 +319,7 @@ export const INITIAL_USERS: UserProfile[] = [
   },
   {
     id: 'user-ka08',
-    name: 'Bung Hadi Gunawan (ka08)',
+    name: 'Bung Nathan Brahma (ka08)',
     unit: 'Shaf 2 (ka08)',
     unitCode: 'ka08',
     role: 'member',
@@ -350,7 +350,7 @@ export const INITIAL_USERS: UserProfile[] = [
   },
   {
     id: 'user-ka09',
-    name: 'Bung Indra Saputra (ka09)',
+    name: 'Bung Banusyairi Arkananta (ka09)',
     unit: 'Shaf 2 (ka09)',
     unitCode: 'ka09',
     role: 'member',
@@ -381,7 +381,7 @@ export const INITIAL_USERS: UserProfile[] = [
   },
   {
     id: 'user-ka10',
-    name: 'Bung Joko Prabowo (ka10)',
+    name: 'Bung Bilal N. Patiria (ka10)',
     unit: 'Shaf 2 (ka10)',
     unitCode: 'ka10',
     role: 'member',
@@ -412,7 +412,7 @@ export const INITIAL_USERS: UserProfile[] = [
   },
   {
     id: 'user-ka11',
-    name: 'Bung Kurnia Ilahi (ka11)',
+    name: 'Bung Yosef Kenzi Pratama (ka11)',
     unit: 'Shaf 2 (ka11)',
     unitCode: 'ka11',
     role: 'member',
@@ -443,7 +443,7 @@ export const INITIAL_USERS: UserProfile[] = [
   },
   {
     id: 'user-ka12',
-    name: 'Bung Lukman Hakim (ka12)',
+    name: 'Bung Ahmad Satria Arimatea (ka12)',
     unit: 'Shaf 2 (ka12)',
     unitCode: 'ka12',
     role: 'member',
@@ -474,7 +474,7 @@ export const INITIAL_USERS: UserProfile[] = [
   },
   {
     id: 'user-ka13',
-    name: 'Bung M. Rizky (ka13)',
+    name: 'Bung Radja Mikhael Al Haq (ka13)',
     unit: 'Shaf 2 (ka13)',
     unitCode: 'ka13',
     role: 'member',
@@ -505,7 +505,7 @@ export const INITIAL_USERS: UserProfile[] = [
   },
   {
     id: 'user-ka14',
-    name: 'Bung Nugroho Pratama (ka14)',
+    name: 'Bung Admaja Saif Ezra (ka14)',
     unit: 'Shaf 2 (ka14)',
     unitCode: 'ka14',
     role: 'member',
