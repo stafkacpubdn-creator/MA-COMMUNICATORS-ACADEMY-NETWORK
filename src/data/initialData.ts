@@ -1116,14 +1116,14 @@ export const INITIAL_FORUM_POSTS: ForumPost[] = [
     comments: [
       {
         id: 'c-1',
-        authorName: 'Bung Ahmad Fauzi (ka01)',
+        authorName: 'Bung Gabriel Ardhy Wicaksono (ka01)',
         authorUnit: 'Shaf 2 (ka01)',
         text: 'Siap Bung Abram! Puji Tuan di ka01 sudah berjalan 12 hari beruntun. Teman-teman semakin mantap saat dialog.',
         timestamp: '1 jam yang lalu',
       },
       {
         id: 'c-2',
-        authorName: 'Bung Lukman Hakim (ka12)',
+        authorName: 'Bung Ahmad Satria Arimatea (ka12)',
         authorUnit: 'Shaf 2 (ka12)',
         text: 'Catatan refleksi harian sangat membantu saat kami mengevaluasi penolakan kemarin di lapangan.',
         timestamp: '40 menit yang lalu',
@@ -1132,7 +1132,7 @@ export const INITIAL_FORUM_POSTS: ForumPost[] = [
   },
   {
     id: 'post-2',
-    authorName: 'Bung Chandra Wijaya (ka03)',
+    authorName: 'Bung Shalom Abdi Raya (ka03)',
     authorUnit: 'Shaf 2 (ka03)',
     authorAvatar: 'https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=150&auto=format&fit=crop&q=80',
     timestamp: '5 jam yang lalu',
@@ -1144,7 +1144,7 @@ export const INITIAL_FORUM_POSTS: ForumPost[] = [
     comments: [
       {
         id: 'c-3',
-        authorName: 'Bung Budi Santoso (ka02)',
+        authorName: 'Bung Aji Yuda Imanuel (ka02)',
         authorUnit: 'Shaf 2 (ka02)',
         text: 'Luar biasa dan salut! Boleh di-share draf naskah pendekatan tahap "Act"-nya Bung Chandra?',
         timestamp: '3 jam yang lalu',
