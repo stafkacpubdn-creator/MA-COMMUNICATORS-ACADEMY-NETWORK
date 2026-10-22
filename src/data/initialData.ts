@@ -547,10 +547,10 @@ export const INITIAL_LESSONS: Record<'newbie' | 'runner' | 'master', LessonConte
     estimatedMinutes: 25,
     sections: [
       {
-        heading: '1. Hakikat Komunikator KAC & Disiplin Shaf 2',
-        body: 'Seorang komunikator KAC bukan sekadar penyampai kata, melainkan duta nilai yang memegang tanggung jawab moral dan integritas keteladanan. Pada tingkatan Shaf 2 (ka01-ka14), setiap unit adalah simpul penggerak di lapangan yang menghubungkan visi pusat dengan realitas jamaah.',
-        callout: 'Kaidah Utama: Pemahaman (Know How) mendahului tindakan. Jangan melangkah ke lapangan sebelum fondasi konsep terpatri kokoh.',
-        keyTakeaway: 'Integritas pesan bermula dari pemahaman teoretis yang lurus dan selaras dengan visi KAC Pusat.',
+                heading: '1. Hakikat Komunikator MA & Disiplin Shaf 2',
+        body: 'Seorang komunikator MA bukan sekadar penyampai kata, melainkan duta nilai yang memegang tanggung jawab moral dan integritas keteladanan. Pada tingkatan Shaf 2 (ka01-ka14), setiap unit adalah simpul penggerak di lapangan yang menghubungkan visi MA dengan realitas masyarakat.',
+        callout: 'Kaidah Utama: Pemahaman (Know How) mendahului tindakan. Bagi sahabat yang belum nyaman melakukan pengabaran, bersama kita mulai memperkuat fondasi konsep pengabaran agar terpatri kokoh.',
+        keyTakeaway: 'Integritas pesan bermula dari pemahaman teoretis yang lurus dan selaras dengan visi MA.',
       },
       {
         heading: '2. Anatomi Komunikasi Persuasif & Psikologi Penerima',
@@ -560,14 +560,14 @@ export const INITIAL_LESSONS: Record<'newbie' | 'runner' | 'master', LessonConte
       },
       {
         heading: '3. Metrik Base KPI A: Fondasi Standarisasi',
-        body: 'Base KPI A mewajibkan setiap peserta menguasai 5 pilar terminologi KAC, menyelesaikan kuesioner asesmen dasar tanpa bantuan catatan, serta membiasakan rutinitas Alpha Habit (membaca 1 modul/hari, review mandiri 15 menit, dan pencatatan refleksi).',
+        body: 'Base KPI A mewajibkan setiap peserta menguasai 6 pilar terminologi Pengabaran, menyelesaikan kuesioner asesmen dasar tanpa bantuan catatan, serta membiasakan rutinitas Alpha Habit (membaca 1 modul/hari, review mandiri 15 menit, dan pencatatan refleksi).',
         callout: 'Standar Kelulusan: Nilai minimum kuis adaptif 80 dari 100 poin.',
         keyTakeaway: 'Disiplin mencatat harian di Alpha Habit Tracker adalah indikator determinan keberhasilan komunikator masa depan.',
       },
     ],
     practicalExamples: [
       'Contoh Studi Kasus: Menghadapi audiens yang skeptis di tahap awal pertemuan.',
-      'Skenario Alpha: Menjawab pertanyaan kritis tentang dasar program KAC dengan santun dan berbobot.',
+      'Skenario Alpha: Menjawab pertanyaan kritis tentang VISI MA dengan santun dan berbobot.',
       'Latihan Refleksi Diri: Menilai gaya komunikasi pribadi (apakah pasif, agresif, atau asertif).',
     ],
     flipbookUrl: 'https://heyzine.com/flip-book/c8cf26fe26.html',
@@ -595,15 +595,15 @@ export const INITIAL_LESSONS: Record<'newbie' | 'runner' | 'master', LessonConte
         keyTakeaway: 'Ketahanan mental komunikator dibentuk saat menghadapi keberatan audiens secara elegan.',
       },
       {
-        heading: '3. Sinergi Koordinasi Antar Unit Shaf 2',
-        body: 'Tidak ada unit yang berjuang sendirian. Runner Class melatih koordinasi antar-ka (misalnya ka01 berkolaborasi dengan ka02 dan ka03) dalam berbagi pola pendekatan audiens lokal dan data tren respons masyarakat.',
+        heading: '3. Sinergi Koordinasi Antar PKU di dalam satu Unit Shaf 2',
+        body: 'Tidak ada PKU yang berjuang sendirian. Runner Class melatih koordinasi antar-PKU (misalnya KU SDK berkolaborasi dengan KU PUB dan KUB Idek) dalam berbagi pola pendekatan audiens lokal dan data tren respons masyarakat.',
         callout: 'Sistem Estafet: Informasi pengabaran dicatat real-time agar tindak lanjut pembinaan berjalan mulus.',
         keyTakeaway: 'Keberhasilan Shaf 2 diukur dari soliditas tim dan konsistensi transfer informasi.',
       },
     ],
     practicalExamples: [
       'Simulasi: Mengubah penolakan awal ("saya belum tertarik") menjadi diskusi dua arah yang hangat.',
-      'Role Play Beta: Menyampaikan solusi program KAC dalam waktu 5 menit secara padat dan memikat.',
+      'Role Play Beta: Menyampaikan solusi program MA dalam waktu 5 menit secara padat dan memikat.',
       'Trik Bahasa Tubuh: Menjaga kontak mata terbuka dan postur welcoming di lingkungan formal maupun informal.',
     ],
   },
@@ -619,14 +619,14 @@ export const INITIAL_LESSONS: Record<'newbie' | 'runner' | 'master', LessonConte
       {
         heading: '1. Puncak Keteladanan: Show How (Mentoring & Modeling)',
         body: 'Tingkat Master adalah tentang menjadi teladan hidup (living benchmark). Seorang Master tidak lagi sekadar berteori atau bekerja teknis; mereka mendemonstrasikan seni komunikasi persuasif tingkat tinggi di hadapan anggota yunior dan audiens kunci strategis.',
-        callout: 'Kaidah Master: Pemimpin sejati melipatgandakan dampak dengan melahirkan komunikator-komunikator unggul baru.',
+        callout: 'Kaidah Master: Master sejati melipatgandakan dampak dengan melahirkan komunikator-komunikator unggul baru.',
         keyTakeaway: 'Show How berarti karya dan integritas kita yang berbicara sebelum lisan kita bertutur.',
       },
       {
-        heading: '2. Roof KPI C: Standar Puncak KAC',
-        body: 'Roof KPI C menilai kemampuan strategis: merumuskan analisis IPOOI regional, memandu sesi AORA lintas wilayah, serta menjaga Delta Habit Tracker (coaching mingguan, publikasi kajian berkala, dan penyempurnaan kurikulum modul).',
+        heading: '2. Roof KPI C: Standar Puncak Pengabaran',
+        body: 'Roof KPI C menilai kemampuan strategis: merumuskan analisis IPOOI regional, memandu sesi AORA lintas sektoral, serta menjaga Delta Habit Tracker (coaching mingguan, publikasi kajian berkala, dan penyempurnaan kurikulum modul).',
         callout: 'Standar Kelulusan: Asesmen Lanjut berbasis skenario dilematis yang menuntut penalaran etis dan strategis.',
-        keyTakeaway: 'Master bertanggung jawab atas kesinambungan kaderisasi dan ketepatan arah misi KAC.',
+        keyTakeaway: 'Master bertanggung jawab atas kesinambungan kaderisasi dan ketepatan arah misi MA.',
       },
       {
         heading: '3. Manajemen Krisis Komunikasi & Resolusi Konflik',
